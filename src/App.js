@@ -59,7 +59,7 @@ function App() {
           maxInitials={1}
           size={40}
           round={true}
-          name={rowData === undefined ? " " : rowData.first_name}
+          name={rowData === undefined ? " " : rowData.UserName}
         />
       ),
     },
